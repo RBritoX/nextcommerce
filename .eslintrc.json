@@ -1,3 +1,8 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "plugins": ["prettier", "prettier-plugin-tailwindcss"],
+  "rules": {
+    "prettier/prettier": "error",
+    "@typescript-eslint/no-namespace": "off"
+  }
 }
